@@ -1,0 +1,47 @@
+.plane{
+	height: 500px;
+	width: 1000px;
+	border: 1px solid red;	
+	margin: 20px auto;
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	overflow-y: scroll;
+	background-image: url("../images/menu.jpg");
+	background-repeat: no-repeat;
+	background-size: 990px 500px;
+}
+.div_2{
+	position: relative;
+	left: 70px;
+	margin: 10px auto;
+}
+.div_1{
+	color: #0e90d2;
+}
+.div_2 button,.div_2 input{
+	border: 0px;
+	background-color: transparent;
+	color: greenyellow;
+	font-size: 20px;
+	font-weight: bold;
+}
+.div_3 input{
+	width: 265px;
+	height: 21px;
+	border: 3px solid #c91623;
+	position: relative;
+	left: 4px;
+	top: 0px;
+}
+.div_3 button{
+	width: 51px;
+	height: 29px;
+	color: white;
+	border: 0px;
+	background-color: #c91623;
+}
+.div_2 button:hover,.div_2 input:hover{
+	transform: scale(1.1);
+	color: red;
+}
